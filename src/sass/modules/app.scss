@@ -1,0 +1,18 @@
+.mainContainer {
+	margin-left: 20px;
+
+	.mainContainer__title {
+		display: flex;
+		align-items: center;
+		font-size: 30px;
+
+		input {
+			width: 20px;
+			height: 20px;
+		}
+
+		label {
+			margin-left: 10px;
+		}
+	}
+}

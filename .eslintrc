@@ -1,0 +1,63 @@
+{
+	"extends": [
+		"airbnb",
+		"plugin:prettier/recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:jsx-a11y/recommended"
+	],
+	"plugins": ["prettier", "react"],
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		],
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"react/jsx-one-expression-per-line": [0],
+		"react/prefer-stateless-function": [1],
+		"react/static-property-placement": [1, "property assignment"],
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"no-unused-vars": "warn",
+		"import/no-named-as-default": 0,
+		"import/no-named-as-default-member": "off",
+		"react/prop-types": "off",
+		"jsx-a11y/label-has-associated-control": "off",
+		"react/react-in-jsx-scope": "off",
+		"import/prefer-default-export": "off",
+		"import/no-extraneous-dependencies": "off",
+		"no-unneeded-ternary": "off",
+		"no-restricted-syntax": "off",
+		"no-await-in-loop": "off",
+		"no-continue": "off",
+		"object-shorthand": "off",
+		"react/no-array-index-key": "off",
+		"consistent-return": "off",
+		"prefer-destructuring": "off",
+		"no-else-return": "off",
+		"prefer-template": "off",
+		"no-alert": "off"
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"paths": ["src"]
+			}
+		}
+	},
+	"parser": "babel-eslint"
+}
