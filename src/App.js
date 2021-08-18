@@ -46,11 +46,11 @@ function App() {
 	return (
 		<div className="App">
 			{list &&
-				Object.keys(list).map((element, indexMain) => {
+				Object.keys(list).map((element, index) => {
 					const { id, type, name, elements } = list[element];
 
 					return (
-						<div key={indexMain} className="mainContainer" data-list-type="checkbox">
+						<div key={index} className="mainContainer" data-list-type="checkbox">
 							<div className="mainContainer__title">
 								<input
 									type="checkbox"
