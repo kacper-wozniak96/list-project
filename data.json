@@ -1,0 +1,245 @@
+{
+	"Main List": {
+		"name": "Main List",
+		"id": "Main List",
+		"type": "radio",
+		"elements": [
+			{
+				"name": "ChildList 1",
+				"type": "radio",
+				"id": "ChildList1",
+				"elements": [
+					{
+						"name": "Child 11",
+						"id": "Child 11"
+					},
+					{
+						"name": "ChildList 12",
+						"type": "checkbox",
+						"id": "ChildList 12",
+						"elements": [
+							{
+								"name": "ChildList 121",
+								"id": "ChildList 121",
+								"type": "radio",
+								"elements": [
+									{
+										"name": "Child 1211",
+										"id": "Child 3211",
+										"type": "radio"
+									},
+									{
+										"name": "Child 1212",
+										"id": "Child 1212",
+										"type": "radio"
+									}
+								]
+							},
+							{
+								"name": "ChildList 122",
+								"id": "ChildList 122",
+								"type": "radio",
+								"elements": [
+									{
+										"name": "Child 1221",
+										"id": "Child 1221",
+										"type": "radio"
+									},
+									{
+										"name": "Child 1222",
+										"id": "Child 1222",
+										"type": "radio"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Child 13",
+						"id": "Child 13"
+					},
+					{
+						"name": "ChildList 14",
+						"type": "checkbox",
+						"id": "ChildList 14",
+						"elements": [
+							{
+								"name": "Child 141",
+								"id": "Child 141"
+							},
+							{
+								"name": "Child 142",
+								"id": "Child 142"
+							},
+							{
+								"name": "ChildList 143",
+								"id": "Child 143",
+								"type": "checkbox",
+								"elements": [
+									{
+										"name": "Child 1431",
+										"id": "Child 1431"
+									},
+									{
+										"name": "Child 1432",
+										"id": "Child 1432"
+									}
+								]
+							},
+							{
+								"name": "ChildList 144",
+								"id": "Child 144",
+								"type": "checkbox",
+								"elements": [
+									{
+										"name": "Child 1441",
+										"id": "Child 1441"
+									},
+									{
+										"name": "Child 1442",
+										"id": "Child 1442"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "ChildList 2",
+				"type": "checkbox",
+				"id": "ChildList2",
+				"elements": [
+					{
+						"name": "Child 21",
+						"id": "Child 21"
+					},
+					{
+						"name": "Child 22",
+						"id": "Child 22"
+					},
+					{
+						"name": "ChildList 23",
+						"type": "checkbox",
+						"id": "ChildList 23",
+						"elements": [
+							{
+								"name": "Child 231",
+								"id": "Child 231"
+							},
+							{
+								"name": "Child 232",
+								"id": "Child 232"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "ChildList 3",
+				"type": "checkbox",
+				"id": "ChildList3",
+				"elements": [
+					{
+						"name": "Child 31",
+						"id": "Child 31"
+					},
+					{
+						"name": "ChildList 32",
+						"type": "radio",
+						"id": "ChildList 32",
+						"elements": [
+							{
+								"name": "ChildList 321",
+								"id": "ChildList 321",
+								"type": "radio",
+								"elements": [
+									{
+										"name": "Child 3211",
+										"id": "Child 3211",
+										"type": "radio"
+									},
+									{
+										"name": "Child 3212",
+										"id": "Child 3212",
+										"type": "radio"
+									}
+								]
+							},
+							{
+								"name": "ChildList 322",
+								"id": "ChildList 322",
+								"type": "radio",
+								"elements": [
+									{
+										"name": "Child 3221",
+										"id": "Child 3211",
+										"type": "radio"
+									},
+									{
+										"name": "Child 3222",
+										"id": "Child 3212",
+										"type": "radio"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Child 33",
+						"id": "Child 33"
+					},
+					{
+						"name": "ChildList 34",
+						"type": "checkbox",
+						"id": "ChildList 34",
+						"elements": [
+							{
+								"name": "Child 341",
+								"id": "Child 341"
+							},
+							{
+								"name": "Child 342",
+								"id": "Child 342"
+							},
+							{
+								"name": "ChildList 343",
+								"id": "Child 343",
+								"type": "checkbox",
+								"elements": [
+									{
+										"name": "Child 3431",
+										"id": "Child 3431"
+									},
+									{
+										"name": "Child 3432",
+										"id": "Child 3432"
+									}
+								]
+							},
+							{
+								"name": "ChildList 344",
+								"id": "Child 344",
+								"type": "checkbox",
+								"elements": [
+									{
+										"name": "Child 3441",
+										"id": "Child 3441"
+									},
+									{
+										"name": "Child 3442",
+										"id": "Child 3442"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Child4",
+				"id": "Child4"
+			}
+		]
+	}
+}
