@@ -1,17 +1,17 @@
 .mainContainer {
 	margin-left: 20px;
 
-	.mainContainer__title {
+	&__title {
 		display: flex;
 		align-items: center;
 		font-size: 30px;
 
-		input {
+		.mainContainer__input {
 			width: 20px;
 			height: 20px;
 		}
 
-		label {
+		.mainContainer__label {
 			margin-left: 10px;
 		}
 	}

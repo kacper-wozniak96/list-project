@@ -1,6 +1,6 @@
+import React, { useState, useEffect } from 'react';
 import AnimatedList from 'components/AnimatedList';
 import List from 'components/List';
-import React, { useState, useEffect } from 'react';
 import 'sass/modules/app.scss';
 import 'sass/global/global.scss';
 
@@ -53,12 +53,15 @@ function App() {
 						<div key={index} className="mainContainer" data-list-type="checkbox">
 							<div className="mainContainer__title">
 								<input
+									className="mainContainer__input"
 									type="checkbox"
 									id={id}
 									checked={showList[id] ? true : false}
 									onChange={(e) => handleShowList(e, id)}
 								/>
-								<label htmlFor={id}>{name}</label>
+								<label className="mainContainer__label" htmlFor={id}>
+									{name}
+								</label>
 							</div>
 							<AnimatedList condition={showList[id]} className="mainlist" type={type}>
 								{elements.map((item) => (

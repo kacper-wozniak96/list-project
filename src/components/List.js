@@ -18,19 +18,22 @@ const List = ({ itemData, showList, handleShowList, parentType }) => {
 
 	return (
 		<li className="listItem" data-list-id={id}>
-			<div className="listItem__name">
+			<div className="listItem__title">
 				{elements ? (
 					<>
 						<input
+							className="listItem__input"
 							type={parentType}
 							id={id}
 							checked={showList[id] ? true : false}
 							onChange={(e) => handleShowList(e, id)}
 						/>
-						<label htmlFor={id}>{name}</label>
+						<label className="listItem__label" htmlFor={id}>
+							{name}
+						</label>
 					</>
 				) : (
-					<span>{name}</span>
+					<span className="listItem__name">{name}</span>
 				)}
 			</div>
 			<AnimatedList condition={showList[id] && nestedLists} type={type} className="sublist">

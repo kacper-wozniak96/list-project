@@ -5,8 +5,8 @@
 	position: relative;
 	font-size: 20px;
 
-	&:nth-child(even) > .listItem__name > label,
-	&:nth-child(even) > .listItem__name > span {
+	&:nth-child(even) > .listItem__title > .listItem__label,
+	&:nth-child(even) > .listItem__title > .listItem__name {
 		background-color: rgba(0, 0, 0, 0.15);
 	}
 
@@ -34,12 +34,12 @@
 		}
 	}
 
-	.listItem__name {
+	.listItem__title {
 		display: flex;
 		align-items: center;
 		font-size: 20px;
 
-		input {
+		.listItem__input {
 			width: 20px;
 			height: 20px;
 			margin-left: 20px;
@@ -48,13 +48,13 @@
 			border-radius: 5px;
 		}
 
-		label {
+		.listItem__label {
 			margin-left: 5px;
 			flex-grow: 1;
 			cursor: pointer;
 		}
 
-		span {
+		.listItem__name {
 			margin-left: 20px;
 			display: block;
 			width: 100%;
